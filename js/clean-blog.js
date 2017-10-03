@@ -1,3 +1,6 @@
+---
+---
+
 /*!
  * Clean Blog v1.0.0 (http://startbootstrap.com)
  * Copyright 2015 Start Bootstrap
@@ -31,7 +34,11 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././mail/contact_me.php",
+            {% if jekyll.environment == "production" %}
+                url: "http://fallacymania.com/mail/contact_me.json",
+            {% else %}
+                url: "http://localhost:3000/mail/contact_me.json",
+            {% endif %}
                 type: "POST",
                 data: {
                     name: name,
