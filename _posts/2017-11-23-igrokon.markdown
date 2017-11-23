@@ -11,6 +11,6 @@ header-img: "img/post-bg-igrokon-2017-2.jpg"
 
 <p>Фотографий у нас немного; выложу 2 самые хорошие из того, что получилось:</p>
 
-<p>![Fallacymania на Игроконе](img/igrokon-2017-photo1.jpg){:class="img-responsive"}</p>
+![Fallacymania на Игроконе]({{ "https://fallacymania.github.io/blog/img/igrokon-2017-photo1.jpg" | absolute_url }})
 
-<p>![Fallacymania на Игроконе](img/igrokon-2017-photo2.jpg){:class="img-responsive"}</p>
+![Fallacymania на Игроконе]({{ "https://fallacymania.github.io/blog/img/igrokon-2017-photo2.jpg" | absolute_url }})
